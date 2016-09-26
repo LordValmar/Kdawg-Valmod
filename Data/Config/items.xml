@@ -36,7 +36,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 		<property name="Sphere" value="0.2" />
 		<property name="Sound_start" value="swoosh" />
 		<property name="Stamina_usage" value="6" />
-		<property name="DamageBonus.head" value="4" /> <!-- these are multipliers -->
+		<property name="DamageBonus.head" value="6" /> <!-- these are multipliers -->
 		<property name="DamageBonus.glass" value="25" />
 		<property name="ActionExp" value="5" />
 		<property name="ActionExpBonusMultiplier" value="5" />
@@ -65,7 +65,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 	<property class="Action0"> <!-- AttackAction -->
 		<property name="Buff" value="criticalBlunt" />
 		<property name="Buff_chance" value=".1" />
-		<property name="DamageBonus.head" value="4" />
+		<property name="DamageBonus.head" value="6" />
 	</property>
 	<property name="CritChance" value=".10" />
 	<property name="Group" value="Ammo/Weapons,Basics" />
@@ -84,7 +84,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 		<property name="EntityDamage" value="9,16" />
 		<property name="BlockDamage" value="3,13" />
 		<property name="DegradationMax" value="100,600" />
-		<property name="DamageBonus.head" value="4" />
+		<property name="DamageBonus.head" value="6" />
 	</property>
 	<property name="CritChance" value=".2" />
 	<property name="Group" value="Ammo/Weapons" />
@@ -98,7 +98,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 	<property class="Action0"> <!-- AttackAction -->
 		<property name="Buff" value="bleeding,criticalBlunt" />
 		<property name="Buff_chance" value=".3,.3" />
-		<property name="DamageBonus.head" value="5" />
+		<property name="DamageBonus.head" value="6" />
 	</property>
 	<property class="Attributes">
 		<property name="EntityDamage" value="10,22" />
@@ -152,7 +152,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 		<property name="DamageBonus.wood" value=".5" />
 		<property name="DamageBonus.stone" value="1" />
 		<property name="DamageBonus.metal" value=".8" />
-		<property name="DamageBonus.head" value="4" />
+		<property name="DamageBonus.head" value="6" />
 		<property name="DamageBonus.concrete" value=".5" />
 		<property name="DamageBonus.glass" value="20" />
 		<property name="ActionExp" value="5" />
@@ -265,7 +265,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 		<property name="Sphere" value="0.1" />
 		<property name="Sound_start" value="swoosh" />
 		<property name="Stamina_usage" value="4" />
-		<property name="DamageBonus.head" value="5" />
+		<property name="DamageBonus.head" value="6" />
 		<property name="DamageBonus.glass" value="25" />
 		<property name="DamageBonus.plants" value="25" />
 		<property name="DamageBonus.leaves" value="25" />
@@ -301,7 +301,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 		<property name="Sphere" value="0.1" />
 		<property name="Sound_start" value="swoosh" />
 		<property name="Stamina_usage" value="5" />
-		<property name="DamageBonus.head" value="5" />
+		<property name="DamageBonus.head" value="6" />
 		<property name="DamageBonus.glass" value="25" />
 		<property name="DamageBonus.plants" value="25" />
 		<property name="DamageBonus.leaves" value="25" />
@@ -341,7 +341,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 		<property name="Sound_start" value="swoosh" />
 		<property name="Stamina_usage" value="7" />
 		<property name="DamageBonus.wood" value="3" />
-		<property name="DamageBonus.head" value="5" />
+		<property name="DamageBonus.head" value="6" />
 		<property name="DamageBonus.glass" value="25" />
 		<property name="DamageBonus.plants" value="25" />
 		<property name="DamageBonus.leaves" value="25" />
@@ -447,7 +447,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 		<property name="Sound_reload" value="Weapons/Ranged/44Magnum/44magnum_reload" />
 		<property name="Particles_muzzle_fire" value="nozzleflash" />
 		<property name="Particles_muzzle_smoke" value="nozzlesmoke" />
-		<property name="DamageBonus.head" value="4" />
+		<property name="DamageBonus.head" value="6" />
 		<property name="DamageBonus.wood" value="4" />
 		<property name="DamageBonus.plants" value="4" />
 		<property name="DamageBonus.earth" value=".2" />
@@ -501,7 +501,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 		<property name="Sound_reload" value="Weapons/Ranged/SawedOffPumpShotgun/shotgun_reload" />
 		<property name="Particles_muzzle_fire" value="nozzleflash_shotgun" />
 		<property name="Particles_muzzle_smoke" value="nozzlesmokeuzi" />
-		<property name="DamageBonus.head" value="3" />
+		<property name="DamageBonus.head" value="6" />
 		<property name="DamageBonus.glass" value="25" />
 		<property name="DamageBonus.wood" value="2" />
 		<property name="DamageBonus.plants" value="4" />
@@ -557,7 +557,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 		<property name="Sound_reload" value="Weapons/Ranged/SawedOffPumpShotgun/shotgun_reload" />
 		<property name="Particles_muzzle_fire" value="nozzleflash_shotgun" />
 		<property name="Particles_muzzle_smoke" value="nozzlesmokeuzi" />
-		<property name="DamageBonus.head" value="3" />
+		<property name="DamageBonus.head" value="6" />
 		<property name="DamageBonus.glass" value="25" />
 		<property name="DamageBonus.wood" value="2" />
 		<property name="DamageBonus.plants" value="4" />
@@ -616,7 +616,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 		<property name="Horde_meter_distance" value="20" />
 		<property name="Particles_muzzle_fire" value="nozzleflashuzi" />
 		<property name="Particles_muzzle_smoke" value="nozzlesmokeuzi" />
-		<property name="DamageBonus.head" value="4" />
+		<property name="DamageBonus.head" value="6" />
 		<property name="DamageBonus.wood" value="5" />
 		<property name="DamageBonus.plants" value="5" />
 		<property name="DamageBonus.earth" value=".2" />
@@ -675,7 +675,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 		<property name="Horde_meter_distance" value="20" />
 		<property name="Particles_muzzle_fire" value="nozzleflash_ak" />
 		<property name="Particles_muzzle_smoke" value="nozzlesmokeuzi" />
-		<property name="DamageBonus.head" value="3" />
+		<property name="DamageBonus.head" value="6" />
 		<property name="DamageBonus.wood" value="5" />
 		<property name="DamageBonus.plants" value="5" />
 		<property name="DamageBonus.earth" value=".2" />
@@ -877,7 +877,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 		<property name="Sound_reload" value="Weapons/Ranged/Blunderbuss/blunderbuss_reload" />
 		<property name="Particles_muzzle_fire" value="nozzleflash_shotgun" />
 		<property name="Particles_muzzle_smoke" value="nozzlesmokeuzi" />
-		<property name="DamageBonus.head" value="3" />
+		<property name="DamageBonus.head" value="6" />
 		<property name="DamageBonus.wood" value="2.5" />
 		<property name="DamageBonus.plants" value="4" />
 		<property name="DamageBonus.glass" value="25" />
@@ -932,7 +932,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 		<property name="DamageEntity" value="5" />
 		<property name="DamageBlock" value="1" />
 		<property name="Stamina_usage" value="3" />
-		<property name="DamageBonus.head" value="2" />
+		<property name="DamageBonus.head" value="3" />
 		<property name="DamageBonus.organic" value="5" />
 		<property name="ToolCategory.Pluck" value="1" /><!--Valmod-->
 	</property>
@@ -1120,7 +1120,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 		<property name="Sphere" value="0.1" />
 		<property name="Sound_start" value="swoosh" />
 		<property name="Stamina_usage" value="3" />
-		<property name="DamageBonus.head" value="5" />
+		<property name="DamageBonus.head" value="6" />
 		<property name="DamageBonus.glass" value="25" />
 		<property name="DamageBonus.wood" value="1" />
 		<property name="DamageBonus.metal" value="0.5" />
@@ -1182,7 +1182,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 		<property name="Sound_start" value="swoosh" />
 		<property name="Stamina_usage" value="4" />
 		<property name="DamageBonus.wood" value="1" />
-		<property name="DamageBonus.head" value="2" />
+		<property name="DamageBonus.head" value="6" />
 		<property name="DamageBonus.glass" value="25" />
 		<property name="DamageBonus.stone" value=".25" />
 		<property name="DamageBonus.metal" value=".25" />
@@ -1236,7 +1236,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 		<property name="Sound_start" value="swoosh" />
 		<property name="Stamina_usage" value="4" />
 		<property name="DamageBonus.glass" value="25" />
-		<property name="DamageBonus.head" value="4" />
+		<property name="DamageBonus.head" value="6" />
 		<property name="DamageBonus.wood" value=".2" />
 		<property name="DamageBonus.earth" value=".2" />
 		<property name="DamageBonus.organic" value=".2" />
@@ -1262,7 +1262,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 	<property class="Action0">
 		<property name="Delay" value="1.5" />
 		<property name="Stamina_usage" value="5" />
-		<property name="DamageBonus.head" value="4" />
+		<property name="DamageBonus.head" value="6" />
 		<property name="ToolCategory.MyCatStone" value="0.5" />
 	</property>
 	<property name="Group" value="Tools/Traps" />
@@ -1293,7 +1293,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 		<property name="Stamina_usage" value="4" />
 		<property name="DamageBonus.earth" value="2" />
 		<property name="DamageBonus.glass" value="25" />
-		<property name="DamageBonus.head" value="4" />
+		<property name="DamageBonus.head" value="6" />
 		<property name="DamageBonus.wood" value=".25" />
 		<property name="DamageBonus.metal" value=".5" />
 		<property name="DamageBonus.organic" value=".7" />
@@ -1336,7 +1336,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 		<property name="Stamina_usage" value="4" />
 		<property name="DamageBonus.earth" value="2" />
 		<property name="DamageBonus.glass" value="25" />
-		<property name="DamageBonus.head" value="4" />
+		<property name="DamageBonus.head" value="6" />
 		<property name="DamageBonus.wood" value=".25" />
 		<property name="DamageBonus.metal" value=".25" />
 		<property name="DamageBonus.organic" value=".7" />
@@ -1401,7 +1401,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 		<property name="DamageBonus.earth" value="2" />
 		<property name="DamageBonus.organic" value="1" />
 		<property name="DamageBonus.glass" value="25" />
-		<property name="DamageBonus.head" value="4" />
+		<property name="DamageBonus.head" value="6" />
 	</property>
 	<property class="Action1"> <!-- UseAction -->
 		<property name="Class" value="MakeFertile" />
@@ -1582,7 +1582,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 		<property name="Horde_meter_distance" value="20" />
 		<property name="Particles_muzzle_smoke" value="nozzlesmoke_chainsaw" />
 		<property name="DamageBonus.wood" value="10" />
-		<property name="DamageBonus.head" value="5" />
+		<property name="DamageBonus.head" value="6" />
 		<property name="DamageBonus.glass" value="25" />
 		<property name="SupportHarvesting" value="true" />
 		<property name="UseMeleeCrosshair" value="true" />
@@ -1866,7 +1866,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 		<property name="LifeTime" value="12" />
 		<property name="Buff" value="arrowCriticalBleedout" />
 		<property name="Buff_chance" value="0.5" />
-		<property name="DamageBonus.head" value="5" />
+		<property name="DamageBonus.head" value="6" />
 		<property name="DamageBonus.glass" value="25" />
 		<property name="DamageBonus.wood" value="0.1" />
 		<property name="DamageBonus.earth" value="0.1" />
@@ -1902,7 +1902,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 		<property name="LifeTime" value="12" />
 		<property name="Buff" value="arrowCriticalBleedout" />
 		<property name="Buff_chance" value="0.25" />
-		<property name="DamageBonus.head" value="5" />
+		<property name="DamageBonus.head" value="6" />
 		<property name="DamageBonus.glass" value="25" />
 		<property name="DamageBonus.wood" value="0.1" />
 		<property name="DamageBonus.earth" value="0.1" />
@@ -1938,7 +1938,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 		<property name="LifeTime" value="12" />
 		<property name="Buff" value="arrowCriticalBleedout" />
 		<property name="Buff_chance" value="0.35" />
-		<property name="DamageBonus.head" value="5" />
+		<property name="DamageBonus.head" value="6" />
 		<property name="DamageBonus.glass" value="25" />
 		<property name="DamageBonus.wood" value="0.1" />
 		<property name="DamageBonus.earth" value="0.1" />
@@ -1974,7 +1974,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 		<property name="FlyTime" value="0.15" />
 		<property name="LifeTime" value="12" />
 		<property name="ActionExp" value="30"/>
-		<property name="DamageBonus.head" value="5" />
+		<property name="DamageBonus.head" value="6" />
 		<property name="DamageBonus.glass" value="25" />
 		<property name="DamageBonus.wood" value="2" />
 		<property name="DamageBonus.earth" value="0.1" />
@@ -2010,7 +2010,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 		<property name="Velocity" value="75" />
 		<property name="FlyTime" value=".25" />
 		<property name="LifeTime" value="17" />
-		<property name="DamageBonus.head" value="5" />
+		<property name="DamageBonus.head" value="6" />
 		<property name="DamageBonus.glass" value="25" />
 		<property name="DamageBonus.earth" value="0" />
 		<property name="DamageBonus.metal" value="0" />
@@ -2044,7 +2044,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 		<property name="Velocity" value="80" />
 		<property name="FlyTime" value=".25" />
 		<property name="LifeTime" value="17" />
-		<property name="DamageBonus.head" value="5" />
+		<property name="DamageBonus.head" value="6" />
 		<property name="DamageBonus.glass" value="25" />
 		<property name="DamageBonus.wood" value="0.1" />
 		<property name="DamageBonus.earth" value="0" />
@@ -2078,7 +2078,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 		<property name="Velocity" value="85" />
 		<property name="FlyTime" value=".25" />
 		<property name="LifeTime" value="17" />
-		<property name="DamageBonus.head" value="5" />
+		<property name="DamageBonus.head" value="6" />
 		<property name="DamageBonus.glass" value="25" />
 		<property name="DamageBonus.wood" value="0.1" />
 		<property name="DamageBonus.earth" value="0" />
@@ -2113,7 +2113,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 		<property name="Velocity" value="65" />
 		<property name="FlyTime" value=".25" />
 		<property name="LifeTime" value="17" />
-		<property name="DamageBonus.head" value="5" />
+		<property name="DamageBonus.head" value="6" />
 		<property name="DamageBonus.glass" value="25" />
 		<property name="DamageBonus.wood" value="0.1" />
 		<property name="DamageBonus.earth" value="0" />
@@ -7430,7 +7430,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 		<property name="Sound_reload" value="Weapons/Ranged/SawedOffPumpShotgun/shotgun_reload" />
 		<property name="Particles_muzzle_fire" value="nozzleflash_shotgun" />
 		<property name="Particles_muzzle_smoke" value="nozzlesmokeuzi" />
-		<property name="DamageBonus.head" value="3" />
+		<property name="DamageBonus.head" value="6" />
 		<property name="DamageBonus.glass" value="25" />
 		<property name="DamageBonus.wood" value="2" />
 		<property name="DamageBonus.plants" value="4" />
@@ -7600,7 +7600,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 			<property name="Sound_start" value="swoosh" />
 			<property name="Stamina_usage" value="7" />
 			<property name="DamageBonus.wood" value="1" />
-			<property name="DamageBonus.head" value="2" />
+			<property name="DamageBonus.head" value="6" />
 			<property name="DamageBonus.glass" value="25" />
 			<property name="DamageBonus.stone" value=".25" />
 			<property name="DamageBonus.metal" value=".25" />
@@ -7763,7 +7763,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 		<property name="Stamina_usage" value="6" />
 		<property name="Buff" value="burning" />
 		<property name="Buff_chance" value="0.6" />
-		<property name="DamageBonus.head" value="2" />
+		<property name="DamageBonus.head" value="6" />
 		<property name="DamageBonus.glass" value="25" />
 		<property name="DamageBonus.snow" value="10" />
 		<property name="ActionExp" value="5" />
@@ -13056,7 +13056,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 		<property name="Horde_meter_distance" value="20" />
 		<property name="Particles_muzzle_smoke" value="nozzlesmoke_chainsaw" />
 		<property name="DamageBonus.wood" value="10" />
-		<property name="DamageBonus.head" value="5" />
+		<property name="DamageBonus.head" value="6" />
 		<property name="DamageBonus.glass" value="25" />
 		<property name="SupportHarvesting" value="true" />
 		<property name="UseMeleeCrosshair" value="true" />
