@@ -589,361 +589,6 @@ then add recipes for those white/red/green metals
 	<property name="LootList" value="95" />
 </block>
 
-<!-- Admin Storage Containers -->
-<block id="70" name="Admin cntGarageStorage">
-	<property name="Extends" value="cntGarageStorage" />
-	<property name="MaxDamage" value="50" />
-	<property name="CustomIcon" value="cntGarageStorage" />
-	<drop event="Destroy" count="0" />
-	<property name="DowngradeBlock" value="cntGarageStorage" />
-	<property name="Class" value="Deadgrass" />
-</block>
-
-<block id="71" name="Admin cntBookcase">
-	<property name="Extends" value="cntBookcase" />
-	<property name="MaxDamage" value="50" />
-	<property name="DowngradeBlock" value="cntBookcase" />
-	<property name="Class" value="Deadgrass" />
-	<drop event="Destroy" count="0" />
-</block>
-
-<block id="72" name="Admin cntBookStoreBookcase">
-	<property name="Extends" value="cntBookStoreBookcase" />
-	<property name="MaxDamage" value="50" />
-	<property name="CustomIcon" value="cntBookStoreBookcase" />
-	<property name="DowngradeBlock" value="cntBookStoreBookcase" />
-	<property name="Class" value="Deadgrass" />
-	<drop event="Destroy" count="0" />
-</block>
-
-<block id="73" name="Admin cntCashRegister">
-	<property name="Extends" value="cntCashRegister" />
-	<property name="MaxDamage" value="50" />
-	<property name="CustomIcon" value="cntCashRegister" />
-	<property name="DowngradeBlock" value="cntCashRegister" />
-	<property name="Class" value="Deadgrass" />
-	<drop event="Destroy" count="0" />
-</block>
-
-<block id="74" name="Admin cntBeerCooler">
-	<property name="Extends" value="cntBeerCooler" />
-	<property name="MaxDamage" value="50" />
-	<property name="CustomIcon" value="cntBeerCooler" />
-	<property name="DowngradeBlock" value="cntBeerCooler" />
-	<property name="Class" value="Deadgrass" />
-	<drop event="Destroy" count="0" />
-</block>
-
-<block id="75" name="Admin cntToilet01">
-	<property name="Extends" value="cntToilet01" />
-	<property name="MaxDamage" value="50" />
-	<property name="CustomIcon" value="cntToilet01" />
-	<property name="DowngradeBlock" value="cntToilet01" />
-	<property name="Class" value="Deadgrass" />
-	<drop event="Destroy" count="0" />
-</block>
-
-<block id="76" name="Admin cntCabinet">
-	<property name="Extends" value="cntCabinet" />
-	<property name="MaxDamage" value="50" />
-	<property name="CustomIcon" value="cntCabinet" />
-	<property name="DowngradeBlock" value="cntCabinet" />
-	<property name="Class" value="Deadgrass" />
-	<drop event="Destroy" count="0" />
-</block>
-
-<block id="77" name="Admin cntFridge">
-	<property name="Extends" value="cntFridge" />
-	<property name="MaxDamage" value="50" />
-	<property name="CustomIcon" value="cntFridge" />
-	<property name="DowngradeBlock" value="cntFridge" />
-	<property name="Class" value="Deadgrass" />
-	<drop event="Destroy" count="0" />
-</block>
-
-<block id="78" name="Admin cntOven">
-	<property name="Extends" value="cntOven" />
-	<property name="MaxDamage" value="50" />
-	<property name="CustomIcon" value="cntOven" />
-	<property name="DowngradeBlock" value="cntOven" />
-	<property name="Class" value="Deadgrass" />
-	<drop event="Destroy" count="0" />
-</block>
-
-<block id="79" name="Admin cntMailbox">
-	<property name="Extends" value="cntMailbox" />
-	<property name="MaxDamage" value="50" />
-	<property name="CustomIcon" value="cntMailbox" />
-	<property name="DowngradeBlock" value="cntMailbox" />
-	<property name="Class" value="Deadgrass" />
-	<drop event="Destroy" count="0" />
-</block>
-
-<block id="80" name="Admin cntTrash_can01">
-	<property name="Extends" value="cntTrash_can01" />
-	<property name="MaxDamage" value="50" />
-	<property name="CustomIcon" value="cntTrash_can01" />
-	<property name="DowngradeBlock" value="cntTrash_can01" />
-	<property name="Class" value="Deadgrass" />
-	<drop event="Destroy" count="0" />
-</block>
-
-<block id="81" name="Admin cntBin">
-	<property name="Extends" value="cntBin" />
-	<property name="MaxDamage" value="50" />
-	<property name="CustomIcon" value="cntBin" />
-	<property name="DowngradeBlock" value="cntBin" />
-	<property name="Class" value="Deadgrass" />
-	<drop event="Destroy" count="0" />
-</block>
-
-<block id="82" name="Admin cntNightstand">
-	<property name="Extends" value="cntNightstand" />
-	<property name="MaxDamage" value="50" />
-	<property name="CustomIcon" value="cntNightstand" />
-	<property name="DowngradeBlock" value="cntNightstand" />
-	<property name="Class" value="Deadgrass" />
-	<drop event="Destroy" count="0" />
-</block>
-
-<block id="83" name="Admin cntSuitcase">
-	<property name="Extends" value="cntSuitcase" />
-	<property name="MaxDamage" value="50" />
-	<property name="CustomIcon" value="cntSuitcase" />
-	<property name="DowngradeBlock" value="cntSuitcase" />
-	<property name="Class" value="Deadgrass" />
-	<drop event="Destroy" count="0" />
-</block>
-
-<block id="84" name="Admin cntTrashPile01">
-	<property name="Extends" value="cntTrashPile01" />
-	<property name="MaxDamage" value="50" />
-	<property name="CustomIcon" value="cntTrashPile01" />
-	<property name="DowngradeBlock" value="cntTrashPile01" />
-	<property name="Class" value="Deadgrass" />
-	<drop event="Destroy" count="0" />
-</block>
-
-<block id="85" name="Admin cntGasPump">
-	<property name="MaxDamage" value="50" />
-	<property name="CustomIcon" value="cntGasPump" />
-	<property name="DowngradeBlock" value="cntGasPump" />
-	<drop event="Destroy" count="0" />
-	<property name="Material" value="Mmetal_thin" />
-	<property name="Shape" value="Ext3dModel" />
-	<property name="Mesh" value="models" />
-	<property name="Model" value="Industrial/gas_pump" param1="main_mesh" />
-	<property name="MultiBlockDim" value="1,2,1" />
-</block>
-
-<block id="86" name="Admin cntCorpseLoot01">
-	<property name="Extends" value="cntCorpseLoot01" />
-	<property name="MaxDamage" value="50" />
-	<property name="CustomIcon" value="cntCorpseLoot01" />
-	<property name="DowngradeBlock" value="cntCorpseLoot01" />
-	<property name="Class" value="Deadgrass" />
-	<drop event="Destroy" count="0" />
-</block>
-
-<block id="87" name="Admin cntDeskSafe">
-	<property name="Extends" value="cntDeskSafe" />
-	<property name="MaxDamage" value="50" />
-	<property name="CustomIcon" value="cntDeskSafe" />
-	<property name="DowngradeBlock" value="cntDeskSafe" />
-	<property name="Class" value="Deadgrass" />
-	<drop event="Destroy" count="0" />
-</block>
-
-<block id="88" name="Admin cntWallSafe">
-	<property name="Extends" value="cntWallSafe" />
-	<property name="MaxDamage" value="50" />
-	<property name="CustomIcon" value="cntWallSafe" />
-	<property name="DowngradeBlock" value="cntWallSafe" />
-	<property name="Class" value="Deadgrass" />
-	<drop event="Destroy" count="0" />
-</block>
-
-<block id="89" name="Admin cntCorpseLoot02">
-	<property name="Extends" value="cntCorpseLoot02" />
-	<property name="MaxDamage" value="50" />
-	<property name="CustomIcon" value="cntCorpseLoot02" />
-	<property name="DowngradeBlock" value="cntCorpseLoot02" />
-	<property name="Class" value="Deadgrass" />
-	<drop event="Destroy" count="0" />
-</block>
-
-<block id="90" name="Admin cntBackpack01">
-	<property name="Extends" value="cntBackpack01" />
-	<property name="MaxDamage" value="50" />
-	<property name="CustomIcon" value="cntBackpack01" />
-	<property name="DowngradeBlock" value="cntBackpack01" />
-	<property name="Class" value="Deadgrass" />
-	<drop event="Destroy" count="0" />
-</block>
-
-<block id="91" name="Admin cntDesk01">
-	<property name="Extends" value="cntDesk01" />
-	<property name="MaxDamage" value="50" />
-	<property name="CustomIcon" value="cntDesk01" />
-	<property name="DowngradeBlock" value="cntDesk01" />
-	<property name="Class" value="Deadgrass" />
-	<drop event="Destroy" count="0" />
-</block>
-
-<block id="92" name="Admin cntBirdnest">
-	<property name="Extends" value="cntBirdnest" />
-	<property name="MaxDamage" value="50" />
-	<property name="CustomIcon" value="cntBirdnest" />
-	<property name="DowngradeBlock" value="cntBirdnest" />
-	<property name="Class" value="Deadgrass" />
-	<drop event="Destroy" count="0" />
-</block>
-
-<block id="92" name="Admin cntMunitionsBox">
-	<property name="Extends" value="cntMunitionsBox" />
-	<property name="MaxDamage" value="50" />
-	<property name="CustomIcon" value="cntMunitionsBox" />
-	<property name="DowngradeBlock" value="cntMunitionsBox" />
-	<property name="Class" value="Deadgrass" />
-	<drop event="Destroy" count="0" />
-</block>
-
-<block id="93" name="Admin cntDumpster">
-	<property name="MaxDamage" value="50" />
-	<property name="Material" value="Mmetal_thin" />
-	<property name="CustomIcon" value="cntDumpster" />
-	<property name="DowngradeBlock" value="cntDumpster" />
-	<property name="Shape" value="Ext3dModel" />
-	<property name="Mesh" value="models" />
-	<property name="Model" value="LootContainers/dumpster" param1="main_mesh" />
-	<property name="MultiBlockDim" value="3,2,2" />
-	<drop event="Destroy" count="0" />
-</block>
-
-<block id="94" name="Admin cntCooler">
-	<property name="Extends" value="cntCooler" />
-	<property name="MaxDamage" value="50" />
-	<property name="CustomIcon" value="cntCooler" />
-	<property name="DowngradeBlock" value="cntCooler" />
-	<property name="Class" value="Deadgrass" />
-	<drop event="Destroy" count="0" />
-</block>
-
-<block id="95" name="Admin cntFileCabinet">
-	<property name="Extends" value="cntFileCabinet" />
-	<property name="MaxDamage" value="50" />
-	<property name="CustomIcon" value="cntFileCabinet" />
-	<property name="DowngradeBlock" value="cntFileCabinet" />
-	<property name="Class" value="Deadgrass" />
-	<drop event="Destroy" count="0" />
-</block>
-
-<block id="96" name="Admin cntLockers">
-	<property name="Extends" value="cntLockers" />
-	<property name="MaxDamage" value="50" />
-	<property name="CustomIcon" value="cntLockers" />
-	<property name="DowngradeBlock" value="cntLockers" />
-	<property name="Class" value="Deadgrass" />
-	<drop event="Destroy" count="0" />
-</block>
-
-<block id="97" name="Admin cntGunSafe">
-	<property name="Extends" value="cntGunSafe" />
-	<property name="MaxDamage" value="50" />
-	<property name="CustomIcon" value="cntGunSafe" />
-	<property name="DowngradeBlock" value="cntGunSafe" />
-	<property name="Class" value="Deadgrass" />
-	<drop event="Destroy" count="0" />
-</block>
-
-<block id="98" name="Admin cntGraniteSink">
-	<property name="Extends" value="cntGraniteSink" />
-	<property name="MaxDamage" value="50" />
-	<property name="CustomIcon" value="cntGraniteSink" />
-	<property name="DowngradeBlock" value="cntGraniteSink" />
-	<property name="Class" value="Deadgrass" />
-	<drop event="Destroy" count="0" />
-</block>
-
-<block id="99" name="Admin cntCabinetOldSink">
-	<property name="Extends" value="cntCabinetOldSink" />
-	<property name="MaxDamage" value="50" />
-	<property name="CustomIcon" value="cntCabinetOldSink" />
-	<property name="DowngradeBlock" value="cntCabinetOldSink" />
-	<property name="Class" value="Deadgrass" />
-	<drop event="Destroy" count="0" />
-</block>
-
-<block id="100" name="Admin cntCabinetOldBottom">
-	<property name="Extends" value="cntCabinetOldBottom" />
-	<property name="MaxDamage" value="50" />
-	<property name="CustomIcon" value="cntCabinetOldBottom" />
-	<property name="DowngradeBlock" value="cntCabinetOldBottom" />
-	<property name="Class" value="Deadgrass" />
-	<drop event="Destroy" count="0" />
-</block>
-
-<block id="101" name="Admin cntCabinetOldBottom">
-	<property name="Extends" value="cntCabinetOldBottom" />
-	<property name="MaxDamage" value="50" />
-	<property name="CustomIcon" value="cntCabinetOldBottom" />
-	<property name="DowngradeBlock" value="cntCabinetOldBottom" />
-	<property name="Class" value="Deadgrass" />
-	<drop event="Destroy" count="0" />
-</block>
-
-<block id="102" name="Admin cntCabinetOldTop">
-	<property name="Extends" value="cntCabinetOldTop" />
-	<property name="MaxDamage" value="50" />
-	<property name="CustomIcon" value="cntCabinetOldTop" />
-	<property name="DowngradeBlock" value="cntCabinetOldTop" />
-	<property name="Class" value="Deadgrass" />
-	<drop event="Destroy" count="0" />
-</block>
-
-<block id="103" name="Admin cntWallOven">
-	<property name="Extends" value="cntWallOven" param1="Harvest" />
-	<property name="MaxDamage" value="50" />
-	<property name="CustomIcon" value="cntWallOven" />
-	<property name="DowngradeBlock" value="cntWallOven" />
-	<property name="Class" value="Deadgrass" />
-	<drop event="Destroy" count="0" />
-</block>
-
-<block id="104" name="Admin cntCabinetTop">
-	<property name="Extends" value="cntCabinetTop" />
-	<property name="MaxDamage" value="50" />
-	<property name="CustomIcon" value="cntCabinetTop" />
-	<property name="DowngradeBlock" value="cntCabinetTop" />
-	<property name="Class" value="Deadgrass" />
-	<drop event="Destroy" count="0" />
-</block>
-
-<block id="105" name="Admin cntPillCase">
-	<property name="Extends" value="cntPillCase" />
-	<property name="MaxDamage" value="50" />
-	<property name="CustomIcon" value="cntPillCase" />
-	<property name="DowngradeBlock" value="cntPillCase" />
-	<property name="Class" value="Deadgrass" />
-	<drop event="Destroy" count="0" />
-</block>
-
-<block id="106" name="Admin cntShoppingCart">
-	<property name="Extends" value="cntShoppingCart" />
-	<property name="MaxDamage" value="50" />
-	<property name="CustomIcon" value="cntShoppingCart" />
-	<property name="DowngradeBlock" value="cntShoppingCart" />
-	<property name="Class" value="Deadgrass" />
-	<drop event="Destroy" count="0" />
-</block>
-
-<block id="107" name="Admin cntShoppingBasket">
-	<property name="Extends" value="cntShoppingBasket" />
-	<property name="MaxDamage" value="50" />
-	<property name="DowngradeBlock" value="cntShoppingBasket" />
-	<property name="Class" value="Deadgrass" />
-	<drop event="Destroy" count="0" />
-</block>
 
 <!-- ****************************  Master Material Blocks  **************************** -->
 	<!-- Master blocks are material based because it means that the repair and upgrade resources -->
@@ -4633,7 +4278,6 @@ kind of free
 	<property name="Extends" value="storeShelving01" />
 	<property name="Model" value="Commercial/store_shelving01_top_double" param1="main_mesh" />
 </block>
-	<!--ID 526-536 Free -->
 <block id="537" name="trapFall">
 	<property name="Extends" value="dirt" />
 	<property name="Material" value="MbarbedWire" />
@@ -4653,8 +4297,6 @@ kind of free
 	<drop event="Destroy" name="rockSmall" count="5" />
 	<drop event="Fall" name="destroyedStone" count="1" prob=".5"  stick_chance="1" />
 </block>
-	<!--ID 539 Free -->
-	<!--ID 540 Free -->
 <block id="541" name="decorSteel">
 	<property name="Extends" value="steelMaster" />
 	<property name="DescriptionKey" value="decorSteelDesc"/>
@@ -4680,7 +4322,6 @@ kind of free
 	<property name="Collide" value="melee,bullet,arrow,rocket" />
 	<drop event="Destroy" count="0" prob="1" />
 </block>
-	<!-- Free -->
 
 <block id="547" name="endTable">
 	<property name="Material" value="wood_weak" />
@@ -4971,7 +4612,6 @@ kind of free
 	<drop event="Destroy" name="wood" count="100" prob="1" />
 	<drop event="Destroy" name="mapleSeed" count="1"/>
 </block>
-<!-- 572 free-->
 
 <block id="573" name="treeMaple15m">
 	<property name="Extends" value="treeMaster" />
@@ -5011,7 +4651,6 @@ kind of free
 	<drop event="Destroy" name="wood" count="200" prob="1" />
 	<drop event="Destroy" name="mapleSeed" count="2"/>
 </block>
-	<!-- Free -->
 
 <block id="577" name="treeBurntPine01">
 	<property name="Extends" value="treeMaster" />
@@ -5048,8 +4687,6 @@ kind of free
 	<drop event="Harvest" name="wood" count="400" />
 	<drop event="Destroy" name="wood" count="200" prob="4" />
 </block>
-
-    <!-- free -->
 
 <block id="581" name="treeDeadTree01">
 	<property name="Extends" value="treeMaster" />
@@ -5545,7 +5182,6 @@ kind of free
 	<property name="CustomIcon" value="brickPaintedIndustrialTileBlock" />
 	<property name="Texture" value="332,332,332,436,332,332" />
 </block>
-	<!-- Free -->
 
 <block id="639" name="cntSecureStorageChest">
 	<property name="Class" value="SecureLoot" />
@@ -5573,7 +5209,6 @@ kind of free
 	<property name="MultiBlockDim" value="3,2,3" />
 	<property name="DowngradeBlock" value="rockResource02Broke1" />
 </block>
-	<!-- 641 Free -->
 
 <block id="642" name="secureReinforcedDoorWooden">
 	<property name="Class" value="DoorSecure" />
@@ -5669,12 +5304,6 @@ kind of free
 	<property name="Model" value="Entities/Resources/rock_resource02_broke3Prefab" />
 	<property name="MultiBlockDim" value="2,2,2" />
 </block>
-	<!-- ID 649 Available Free -->
-	<!-- ID 650 Available Free -->
-	<!-- ID 651 Available Free -->
-	<!-- ID 652 Available Free -->
-	<!-- ID 653 Available Free -->
-	<!-- ID 654 Available Free -->
 
 <!-- Window02 Prefab Versions -->
 <block id="655" name="window02Frame">
@@ -5715,7 +5344,6 @@ kind of free
 	</property>
 	<drop event="Destroy" count="0" />
 </block>
-	<!-- Free -->
 
 <block id="667" name="glassCTRSheet">
 	<property name="Material" value="glass" />
@@ -6246,7 +5874,6 @@ kind of free
 	<drop event="Destroy" name="plantedCotton3Harvest" count="0" prob="1" />
 	<property name="DowngradeBlock" value="plantedCotton1" />
 </block>
-	<!-- Free -->
 
 <block id="719" name="drywallWhiteCNRInside">
 	<property name="Extends" value="woodCNRInside" />
@@ -6686,7 +6313,6 @@ kind of free
 	<drop event="Destroy" name="yuccaFibers" count="2" />
 	<property name="DropScale" value="2" />
 </block>
-	<!--ID Free -->
 
 <block id="770" name="woodLogPillar100">
 	<property name="Extends" value="woodMaster" />
@@ -6701,7 +6327,6 @@ kind of free
 	<property class="UpgradeBlock"> <property name="ToBlock" value="rWoodPillar100" /> </property>
 	<drop event="Destroy" name="nail" count="0" prob="1" />
 </block>
-	<!--ID 771 Free Depracted Door -->
 
 <block id="772" name="treePlainsGrassDiagonal">
 	<property name="Class" value="Deadgrass" />
@@ -14805,6 +14430,360 @@ kind of free
 		<drop event="Destroy" count="0" prob="1" />
 	</block>
 
+<!-- Admin Storage Containers -->
+<block id="526" name="Admin cntGarageStorage">
+	<property name="Extends" value="cntGarageStorage" />
+	<property name="MaxDamage" value="50" />
+	<property name="CustomIcon" value="cntGarageStorage" />
+	<drop event="Destroy" count="0" />
+	<property name="DowngradeBlock" value="cntGarageStorage" />
+	<property name="Class" value="Deadgrass" />
+</block>
 
+<block id="527" name="Admin cntBookcase">
+	<property name="Extends" value="cntBookcase" />
+	<property name="MaxDamage" value="50" />
+	<property name="DowngradeBlock" value="cntBookcase" />
+	<property name="Class" value="Deadgrass" />
+	<drop event="Destroy" count="0" />
+</block>
+
+<block id="528" name="Admin cntBookStoreBookcase">
+	<property name="Extends" value="cntBookStoreBookcase" />
+	<property name="MaxDamage" value="50" />
+	<property name="CustomIcon" value="cntBookStoreBookcase" />
+	<property name="DowngradeBlock" value="cntBookStoreBookcase" />
+	<property name="Class" value="Deadgrass" />
+	<drop event="Destroy" count="0" />
+</block>
+
+<block id="529" name="Admin cntCashRegister">
+	<property name="Extends" value="cntCashRegister" />
+	<property name="MaxDamage" value="50" />
+	<property name="CustomIcon" value="cntCashRegister" />
+	<property name="DowngradeBlock" value="cntCashRegister" />
+	<property name="Class" value="Deadgrass" />
+	<drop event="Destroy" count="0" />
+</block>
+
+<block id="530" name="Admin cntBeerCooler">
+	<property name="Extends" value="cntBeerCooler" />
+	<property name="MaxDamage" value="50" />
+	<property name="CustomIcon" value="cntBeerCooler" />
+	<property name="DowngradeBlock" value="cntBeerCooler" />
+	<property name="Class" value="Deadgrass" />
+	<drop event="Destroy" count="0" />
+</block>
+
+<block id="531" name="Admin cntToilet01">
+	<property name="Extends" value="cntToilet01" />
+	<property name="MaxDamage" value="50" />
+	<property name="CustomIcon" value="cntToilet01" />
+	<property name="DowngradeBlock" value="cntToilet01" />
+	<property name="Class" value="Deadgrass" />
+	<drop event="Destroy" count="0" />
+</block>
+
+<block id="532" name="Admin cntCabinet">
+	<property name="Extends" value="cntCabinet" />
+	<property name="MaxDamage" value="50" />
+	<property name="CustomIcon" value="cntCabinet" />
+	<property name="DowngradeBlock" value="cntCabinet" />
+	<property name="Class" value="Deadgrass" />
+	<drop event="Destroy" count="0" />
+</block>
+
+<block id="533" name="Admin cntFridge">
+	<property name="Extends" value="cntFridge" />
+	<property name="MaxDamage" value="50" />
+	<property name="CustomIcon" value="cntFridge" />
+	<property name="DowngradeBlock" value="cntFridge" />
+	<property name="Class" value="Deadgrass" />
+	<drop event="Destroy" count="0" />
+</block>
+
+<block id="534" name="Admin cntOven">
+	<property name="Extends" value="cntOven" />
+	<property name="MaxDamage" value="50" />
+	<property name="CustomIcon" value="cntOven" />
+	<property name="DowngradeBlock" value="cntOven" />
+	<property name="Class" value="Deadgrass" />
+	<drop event="Destroy" count="0" />
+</block>
+
+<block id="535" name="Admin cntMailbox">
+	<property name="Extends" value="cntMailbox" />
+	<property name="MaxDamage" value="50" />
+	<property name="CustomIcon" value="cntMailbox" />
+	<property name="DowngradeBlock" value="cntMailbox" />
+	<property name="Class" value="Deadgrass" />
+	<drop event="Destroy" count="0" />
+</block>
+
+<block id="536" name="Admin cntTrash_can01">
+	<property name="Extends" value="cntTrash_can01" />
+	<property name="MaxDamage" value="50" />
+	<property name="CustomIcon" value="cntTrash_can01" />
+	<property name="DowngradeBlock" value="cntTrash_can01" />
+	<property name="Class" value="Deadgrass" />
+	<drop event="Destroy" count="0" />
+</block>
+
+<block id="539" name="Admin cntBin">
+	<property name="Extends" value="cntBin" />
+	<property name="MaxDamage" value="50" />
+	<property name="CustomIcon" value="cntBin" />
+	<property name="DowngradeBlock" value="cntBin" />
+	<property name="Class" value="Deadgrass" />
+	<drop event="Destroy" count="0" />
+</block>
+
+<block id="543" name="Admin cntNightstand">
+	<property name="Extends" value="cntNightstand" />
+	<property name="MaxDamage" value="50" />
+	<property name="CustomIcon" value="cntNightstand" />
+	<property name="DowngradeBlock" value="cntNightstand" />
+	<property name="Class" value="Deadgrass" />
+	<drop event="Destroy" count="0" />
+</block>
+
+<block id="544" name="Admin cntSuitcase">
+	<property name="Extends" value="cntSuitcase" />
+	<property name="MaxDamage" value="50" />
+	<property name="CustomIcon" value="cntSuitcase" />
+	<property name="DowngradeBlock" value="cntSuitcase" />
+	<property name="Class" value="Deadgrass" />
+	<drop event="Destroy" count="0" />
+</block>
+
+<block id="545" name="Admin cntTrashPile01">
+	<property name="Extends" value="cntTrashPile01" />
+	<property name="MaxDamage" value="50" />
+	<property name="CustomIcon" value="cntTrashPile01" />
+	<property name="DowngradeBlock" value="cntTrashPile01" />
+	<property name="Class" value="Deadgrass" />
+	<drop event="Destroy" count="0" />
+</block>
+
+<block id="546" name="Admin cntGasPump">
+	<property name="MaxDamage" value="50" />
+	<property name="CustomIcon" value="cntGasPump" />
+	<property name="DowngradeBlock" value="cntGasPump" />
+	<drop event="Destroy" count="0" />
+	<property name="Material" value="Mmetal_thin" />
+	<property name="Shape" value="Ext3dModel" />
+	<property name="Mesh" value="models" />
+	<property name="Model" value="Industrial/gas_pump" param1="main_mesh" />
+	<property name="MultiBlockDim" value="1,2,1" />
+</block>
+
+<block id="572" name="Admin cntCorpseLoot01">
+	<property name="Extends" value="cntCorpseLoot01" />
+	<property name="MaxDamage" value="50" />
+	<property name="CustomIcon" value="cntCorpseLoot01" />
+	<property name="DowngradeBlock" value="cntCorpseLoot01" />
+	<property name="Class" value="Deadgrass" />
+	<drop event="Destroy" count="0" />
+</block>
+
+<block id="576" name="Admin cntDeskSafe">
+	<property name="Extends" value="cntDeskSafe" />
+	<property name="MaxDamage" value="50" />
+	<property name="CustomIcon" value="cntDeskSafe" />
+	<property name="DowngradeBlock" value="cntDeskSafe" />
+	<property name="Class" value="Deadgrass" />
+	<drop event="Destroy" count="0" />
+</block>
+
+<block id="580" name="Admin cntWallSafe">
+	<property name="Extends" value="cntWallSafe" />
+	<property name="MaxDamage" value="50" />
+	<property name="CustomIcon" value="cntWallSafe" />
+	<property name="DowngradeBlock" value="cntWallSafe" />
+	<property name="Class" value="Deadgrass" />
+	<drop event="Destroy" count="0" />
+</block>
+
+<block id="638" name="Admin cntCorpseLoot02">
+	<property name="Extends" value="cntCorpseLoot02" />
+	<property name="MaxDamage" value="50" />
+	<property name="CustomIcon" value="cntCorpseLoot02" />
+	<property name="DowngradeBlock" value="cntCorpseLoot02" />
+	<property name="Class" value="Deadgrass" />
+	<drop event="Destroy" count="0" />
+</block>
+
+<block id="641" name="Admin cntBackpack01">
+	<property name="Extends" value="cntBackpack01" />
+	<property name="MaxDamage" value="50" />
+	<property name="CustomIcon" value="cntBackpack01" />
+	<property name="DowngradeBlock" value="cntBackpack01" />
+	<property name="Class" value="Deadgrass" />
+	<drop event="Destroy" count="0" />
+</block>
+
+<block id="649" name="Admin cntDesk01">
+	<property name="Extends" value="cntDesk01" />
+	<property name="MaxDamage" value="50" />
+	<property name="CustomIcon" value="cntDesk01" />
+	<property name="DowngradeBlock" value="cntDesk01" />
+	<property name="Class" value="Deadgrass" />
+	<drop event="Destroy" count="0" />
+</block>
+
+<block id="650" name="Admin cntBirdnest">
+	<property name="Extends" value="cntBirdnest" />
+	<property name="MaxDamage" value="50" />
+	<property name="CustomIcon" value="cntBirdnest" />
+	<property name="DowngradeBlock" value="cntBirdnest" />
+	<property name="Class" value="Deadgrass" />
+	<drop event="Destroy" count="0" />
+</block>
+
+<block id="651" name="Admin cntMunitionsBox">
+	<property name="Extends" value="cntMunitionsBox" />
+	<property name="MaxDamage" value="50" />
+	<property name="CustomIcon" value="cntMunitionsBox" />
+	<property name="DowngradeBlock" value="cntMunitionsBox" />
+	<property name="Class" value="Deadgrass" />
+	<drop event="Destroy" count="0" />
+</block>
+
+<block id="652" name="Admin cntDumpster">
+	<property name="MaxDamage" value="50" />
+	<property name="Material" value="Mmetal_thin" />
+	<property name="CustomIcon" value="cntDumpster" />
+	<property name="DowngradeBlock" value="cntDumpster" />
+	<property name="Shape" value="Ext3dModel" />
+	<property name="Mesh" value="models" />
+	<property name="Model" value="LootContainers/dumpster" param1="main_mesh" />
+	<property name="MultiBlockDim" value="3,2,2" />
+	<drop event="Destroy" count="0" />
+</block>
+
+<block id="653" name="Admin cntCooler">
+	<property name="Extends" value="cntCooler" />
+	<property name="MaxDamage" value="50" />
+	<property name="CustomIcon" value="cntCooler" />
+	<property name="DowngradeBlock" value="cntCooler" />
+	<property name="Class" value="Deadgrass" />
+	<drop event="Destroy" count="0" />
+</block>
+
+<block id="654" name="Admin cntFileCabinet">
+	<property name="Extends" value="cntFileCabinet" />
+	<property name="MaxDamage" value="50" />
+	<property name="CustomIcon" value="cntFileCabinet" />
+	<property name="DowngradeBlock" value="cntFileCabinet" />
+	<property name="Class" value="Deadgrass" />
+	<drop event="Destroy" count="0" />
+</block>
+
+<block id="657" name="Admin cntLockers">
+	<property name="Extends" value="cntLockers" />
+	<property name="MaxDamage" value="50" />
+	<property name="CustomIcon" value="cntLockers" />
+	<property name="DowngradeBlock" value="cntLockers" />
+	<property name="Class" value="Deadgrass" />
+	<drop event="Destroy" count="0" />
+</block>
+
+<block id="658" name="Admin cntGunSafe">
+	<property name="Extends" value="cntGunSafe" />
+	<property name="MaxDamage" value="50" />
+	<property name="CustomIcon" value="cntGunSafe" />
+	<property name="DowngradeBlock" value="cntGunSafe" />
+	<property name="Class" value="Deadgrass" />
+	<drop event="Destroy" count="0" />
+</block>
+
+<block id="659" name="Admin cntGraniteSink">
+	<property name="Extends" value="cntGraniteSink" />
+	<property name="MaxDamage" value="50" />
+	<property name="CustomIcon" value="cntGraniteSink" />
+	<property name="DowngradeBlock" value="cntGraniteSink" />
+	<property name="Class" value="Deadgrass" />
+	<drop event="Destroy" count="0" />
+</block>
+
+<block id="660" name="Admin cntCabinetOldSink">
+	<property name="Extends" value="cntCabinetOldSink" />
+	<property name="MaxDamage" value="50" />
+	<property name="CustomIcon" value="cntCabinetOldSink" />
+	<property name="DowngradeBlock" value="cntCabinetOldSink" />
+	<property name="Class" value="Deadgrass" />
+	<drop event="Destroy" count="0" />
+</block>
+
+<block id="661" name="Admin cntCabinetOldBottom">
+	<property name="Extends" value="cntCabinetOldBottom" />
+	<property name="MaxDamage" value="50" />
+	<property name="CustomIcon" value="cntCabinetOldBottom" />
+	<property name="DowngradeBlock" value="cntCabinetOldBottom" />
+	<property name="Class" value="Deadgrass" />
+	<drop event="Destroy" count="0" />
+</block>
+
+<block id="662" name="Admin cntCabinetOldBottom">
+	<property name="Extends" value="cntCabinetOldBottom" />
+	<property name="MaxDamage" value="50" />
+	<property name="CustomIcon" value="cntCabinetOldBottom" />
+	<property name="DowngradeBlock" value="cntCabinetOldBottom" />
+	<property name="Class" value="Deadgrass" />
+	<drop event="Destroy" count="0" />
+</block>
+
+<block id="663" name="Admin cntCabinetOldTop">
+	<property name="Extends" value="cntCabinetOldTop" />
+	<property name="MaxDamage" value="50" />
+	<property name="CustomIcon" value="cntCabinetOldTop" />
+	<property name="DowngradeBlock" value="cntCabinetOldTop" />
+	<property name="Class" value="Deadgrass" />
+	<drop event="Destroy" count="0" />
+</block>
+
+<block id="664" name="Admin cntWallOven">
+	<property name="Extends" value="cntWallOven" param1="Harvest" />
+	<property name="MaxDamage" value="50" />
+	<property name="CustomIcon" value="cntWallOven" />
+	<property name="DowngradeBlock" value="cntWallOven" />
+	<property name="Class" value="Deadgrass" />
+	<drop event="Destroy" count="0" />
+</block>
+
+<block id="665" name="Admin cntCabinetTop">
+	<property name="Extends" value="cntCabinetTop" />
+	<property name="MaxDamage" value="50" />
+	<property name="CustomIcon" value="cntCabinetTop" />
+	<property name="DowngradeBlock" value="cntCabinetTop" />
+	<property name="Class" value="Deadgrass" />
+	<drop event="Destroy" count="0" />
+</block>
+
+<block id="666" name="Admin cntPillCase">
+	<property name="Extends" value="cntPillCase" />
+	<property name="MaxDamage" value="50" />
+	<property name="CustomIcon" value="cntPillCase" />
+	<property name="DowngradeBlock" value="cntPillCase" />
+	<property name="Class" value="Deadgrass" />
+	<drop event="Destroy" count="0" />
+</block>
+
+<block id="769" name="Admin cntShoppingCart">
+	<property name="Extends" value="cntShoppingCart" />
+	<property name="MaxDamage" value="50" />
+	<property name="CustomIcon" value="cntShoppingCart" />
+	<property name="DowngradeBlock" value="cntShoppingCart" />
+	<property name="Class" value="Deadgrass" />
+	<drop event="Destroy" count="0" />
+</block>
+
+<block id="771" name="Admin cntShoppingBasket">
+	<property name="Extends" value="cntShoppingBasket" />
+	<property name="MaxDamage" value="50" />
+	<property name="DowngradeBlock" value="cntShoppingBasket" />
+	<property name="Class" value="Deadgrass" />
+	<drop event="Destroy" count="0" />
+</block>
 	<!-- 2047 is the limit -->
 </blocks>
