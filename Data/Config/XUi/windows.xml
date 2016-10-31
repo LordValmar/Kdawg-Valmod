@@ -1712,6 +1712,52 @@
 		</rect>
 	</window>
 	
+	<window name="windowVehicle" width="380" height="733" panel="Left" controller="VehicleFrameWindow" > 
+		<panel name="header" pos="3,0" height="43" depth="1" backgroundspritename="ui_game_panel_header">			
+			<sprite depth="2" name="windowIcon" style="icon32px" pos="5,-5" sprite="ui_game_symbol_minibike"/>
+			<label style="header.name" text="{vehiclenamequality}" />
+			<sprite depth="2" width="112" pos="260, -17" height="10" type="sliced" color="[black]" />
+			<sprite depth="2" width="110" pos="261, -18" height="8" type="sliced" color="[mediumGrey]" />
+			<sprite depth="2" name="sprVehicleQuality" width="110" pos="261, -18" height="8" type="filled" color="{vehiclequalitycolor}" />
+			
+		</panel>
+		
+		<panel name="content" depth="0" pos="0,-43" disableautobackground="true">
+			<sprite color="[darkGrey]" pos="3,-3" height="613" />
+			<sprite depth="2" name="backgroundMain" sprite="menu_empty3px" pos="3,-3" width="380" height="733" color="[black]" type="sliced" fillcenter="false" on_press="true" />	
+			<rect depth="1" pos="3,-3" width="380" height="739">
+				
+				<rect pos="3,-3" width="374" height="218">
+					<sprite color="[mediumGrey]" type="sliced" />
+					<texture depth="2" name="vehiclePreview" material="Materials/Transparent Colored" size="374,218" />
+					<label depth="3" pos="14,-20" font_size="26" text="{vehiclequalitytitle}: [DECEA3]{vehiclequality}[-]" width="200" height="30"/> 
+					<label depth="3" pos="14,-50" font_size="26" text="{vehicledurabilitytitle}: [DECEA3]{vehicledurability}[-]" width="200" height="30"/>
+				</rect>
+			
+				<grid name="parts" rows="8" cols="1" pos="3,-223" cell_width="374" cell_height="60" repeat_content="true" controller="VehiclePartStackGrid">
+					<vehicle_part_slot />
+				</grid>
+			
+				<rect name="btnRepair" depth="3" pos="0, -698" height="36">
+					<sprite depth="4" name="backgroundMain" sprite="menu_empty3px" color="[black]" type="sliced" fillcenter="false" />	
+					<!-- <sprite depth="2" name="background" pos="1,-3" sprite="menu_empty" width="379" height="32" color="[darkGrey]" type="sliced"/> -->
+					<rect depth="3" name="background" pos="3,-5" width="183" height="28">
+						<button name="clickable" sprite="menu_empty" defaultcolor="[mediumGrey]" hoversprite="ui_game_select_row" hovercolor="[white]" type="sliced" hoverscale="1.0" />
+						<sprite depth="2" name="windowIcon" width="24" height="24" pos="36,-2" sprite="ui_game_symbol_wrench" color="[black_half_alpha]"/>
+						<sprite depth="2" name="windowIcon" width="24" height="24" pos="34,-2" sprite="ui_game_symbol_wrench" color="[black_half_alpha]"/>
+						
+						<sprite depth="2" name="windowIcon" width="24" height="24" pos="34,0" sprite="ui_game_symbol_wrench" color="[black_half_alpha]"/>
+						<sprite depth="2" name="windowIcon" width="24" height="24" pos="36,0" sprite="ui_game_symbol_wrench" color="[black_half_alpha]"/>
+						
+						<sprite depth="2" name="windowIcon" width="24" height="24" pos="35,-1" sprite="ui_game_symbol_wrench"/>
+						<label depth="2" name="windowName" pos="0,-1" justify="center" text="REPAIR" text_key="xuiRepair" font_size="28" />
+					</rect>
+				</rect>
+			</rect>
+		
+		</panel>
+	</window>
+	
 	<window name="windowVehicleStats" width="380" height="280" panel="Left" controller="VehicleStats" >
 		<!--
 		<panel name="header" height="63" depth="1" backgroundspritename="ui_game_panel_header">

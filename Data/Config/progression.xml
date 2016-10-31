@@ -1659,7 +1659,7 @@
 		</effect>
 	</perk> 
 
-	<player_skill name="Barter" icon="coin" description_key="barterDesc" title_key="barter" group="scavenging">
+	<player_skill name="Barter" exp_to_level="25" experience_multiplier="1.0606" icon="coin" description_key="Reduce the cost of goods and sell them for more Dukes by improving this skill. Level 20 unlocks the merchant deliver box." title_key="barter" group="scavenging">
 		<effect name="Bartering">
 			<add skill_level="1,10" value="0.00,0.15"/>	
 			<add skill_level="10,20" value="0.15,0.23"/>	
