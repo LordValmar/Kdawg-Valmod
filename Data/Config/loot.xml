@@ -392,6 +392,22 @@
 	<item name="theEnforcerMagazine" count="1"/>
 	</lootgroup>
 
+<lootgroup name="SpecialQuests" >
+	<item name="challengeWedding"/>
+	<item name="challengeWallet"/>
+	<item name="challengeBooks"/>
+	<item name="challengeChildsHappiness"/>
+	<item name="challengeToilet"/>
+	<item name="challengeWalkman"/>
+	<item name="challengeCondoms"/>
+	<item name="challengeBaseball"/>
+	<item name="challengeCards"/>
+	<item name="challengeCigarettes"/>
+	<item name="challengeArtist"/>
+	<item name="challengeSoap"/>
+	<item name="challengeBong"/>
+</lootgroup>
+
 <lootgroup name="ValmodQuests" >
 	<item name="challengeSticky"/>
 	<item name="challengeBigBadBosses"/>
@@ -407,19 +423,6 @@
 	<item name="challengeJock"/>
 	<item name="challengeReaper"/>
 	<item name="challengeWalmart"/>
-	<item name="challengeWedding"/>
-	<item name="challengeWallet"/>
-	<item name="challengeBooks"/>
-	<item name="challengeChildsHappiness"/>
-	<item name="challengeToilet"/>
-	<item name="challengeWalkman"/>
-	<item name="challengeCondoms"/>
-	<item name="challengeBaseball"/>
-	<item name="challengeCards"/>
-	<item name="challengeCigarettes"/>
-	<item name="challengeArtist"/>
-	<item name="challengeSoap"/>
-	<item name="challengeBong"/>
 </lootgroup>
 
 <lootgroup name="questChallenge" count="1">
@@ -440,6 +443,7 @@
 	<item name="qc_dontfeedthebears" count="1"/>
 	<item name="qc_buythefarm" count="1"/>
 	<item group="ValmodQuests" prob="3"/>
+	<item group="SpecialQuests" prob="3"/>
 	<item name="recipebookLoki" count="1"/>
 </lootgroup>
 
@@ -652,8 +656,8 @@
 	<item group="pistol+ammo" count="1" prob="0.05"/>
 	<item name="bottledRiverWater" count="1,2" prob="0.45"/>
 	<item name="turd" count="1,2" prob="0.3"/>
-	<item name="soap" count="1" prob="0.1"/>
-	<item name="questItemToiletPaper" prob="0.1"/>
+	<item name="soap" count="1" prob="0.15"/>
+	<item name="questItemToiletPaper" prob="0.05"/>
 </lootgroup>
 
 <lootgroup name="shotguns">
@@ -1045,11 +1049,26 @@
 	<item name="questItemArtSupplies"/>
 </lootgroup>
 
+<lootgroup name="junkQuests">
+	<item name="challengeWallet"/>
+	<item name="challengeBooks"/>
+	<item name="challengeChildsHappiness"/>
+	<item name="challengeBaseball"/>
+	<item name="challengeCards"/>
+	<item name="challengeCigarettes"/>
+	<item name="challengeArtist"/>
+</lootgroup>
+
+<lootgroup name="junkQuestsGroup">
+	<item group="junkQuests" />
+	<item group="junkQuestItems" />
+</lootgroup>
+
 <lootgroup name="junkGood">
 	<item group="questChallenge" count="1" prob="0.15"/>
 	<item group="treasureMaps" count="1" prob="0.1"/>
 	<item group="books" prob="0.7"/>
-	<item group="junkQuestItems" prob="0.05"/>
+	<item group="junkQuestsGroup" prob="0.05"/>
 </lootgroup>
 
 <lootgroup name="junkSpray">
@@ -1487,6 +1506,24 @@
 	<item name="questItemCondoms" />
 	<item name="questItemRing"/>
 </lootgroup>
+<lootgroup name="backpacksQuests" >
+	<item name="challengeWedding"/>
+	<item name="challengeWallet"/>
+	<item name="challengeBooks"/>
+	<item name="challengeChildsHappiness"/>
+	<item name="challengeToilet"/>
+	<item name="challengeWalkman"/>
+	<item name="challengeCondoms"/>
+	<item name="challengeBaseball"/>
+	<item name="challengeCards"/>
+	<item name="challengeCigarettes"/>
+	<item name="challengeArtist"/>
+	<item name="challengeBong"/>
+</lootgroup>
+<lootgroup name="backpacksQuestGroup" >
+	<item group="backpacksQuestItems"/>
+	<item group="backpacksQuests"/>
+</lootgroup>
 <lootgroup name="backpacks">
 	<item group="commonWeaponParts"/>
 	<item group="cupboard"/>
@@ -1494,7 +1531,7 @@
 	<item group="melee" prob="0.5"/>
 	<item group="Armor" prob="0.5"/>
 	<item name="flashlight02" prob="0.3"/>
-	<item group="backpacksQuestItems" prob="0.05"/>
+	<item group="backpacksQuestGroup" prob="0.05"/>
 </lootgroup>
 
 <lootgroup name="airdropMedicine" count="all">
@@ -1707,10 +1744,21 @@
 	<item name="questItemCigarettes"/>
 	<item name="questItemCondoms" />
 </lootgroup>
+<lootgroup name="zombieItemQuests" >
+	<item name="challengeWallet"/>
+	<item name="challengeWalkman"/>
+	<item name="challengeCondoms"/>
+	<item name="challengeCards"/>
+	<item name="challengeCigarettes"/>
+</lootgroup>
+<lootgroup name="zombieQuestGroup" >
+	<item group="zombieItemQuests" count="1" />
+	<item group="zombieQuestItems" count="1" />
+</lootgroup>
 	<lootgroup name="zombieQuests">
 	<item group="questChallenge" count="1" />
 	<item group="treasureMaps" count="1" />
-	<item group="zombieQuestItems" count="1" />
+	<item group="zombieQuestGroup" count="1" />
 	</lootgroup>
 <lootcontainer id="15" count="0,2" size="4,3" destroy_on_close="false" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
 	<item group="junk" prob="0.65"/>
@@ -2044,7 +2092,7 @@
 </lootcontainer>
 
 <!-- player dropped backpacks, they only destroy on close when they are empty -->
-<lootcontainer id="41" count="0,1" size="5,10" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="baseTemplate">
+<lootcontainer id="41" count="0,1" size="6,10" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="baseTemplate">
 	<item name="cobweb" count="1,2" prob="0.01"/>
 </lootcontainer>
 
@@ -2076,6 +2124,17 @@
 	<item name="questItemBaseball" />
 	<item name="questItemArtSupplies" />
 </lootgroup>
+<lootgroup name="lockerQuests">
+	<item name="challengeBooks"/>
+	<item name="challengeChildsHappiness"/>
+	<item name="challengeWalkman"/>
+	<item name="challengeBaseball"/>
+	<item name="challengeArtist"/>
+</lootgroup>
+<lootgroup name="lockerQuestGroup">
+	<item group="lockerQuests" />
+	<item group="lockerQuestItems" />
+</lootgroup>
 <lootgroup name="lockerClothes">
 	<item group="clothes" prob="0.75"/>
 	<item group="hats" prob="0.2"/>
@@ -2097,7 +2156,7 @@
 	<item group="lockerMisc" prob="0.2"/>
 	<item group="lockerGood" prob="0.1"/>
 	<item group="lockerClothes" prob="0.65"/>
-	<item group="lockerQuestItems" prob="0.05"/>
+	<item group="lockerQuestGroup" prob="0.05"/>
 </lootcontainer>
 
 <!-- file cabinet -->
@@ -3078,6 +3137,13 @@
 		<item name="challengeClassMedic" count="1"/>
 		<item name="perkMedic" count="1"/>
 		</lootgroup>
+	<lootgroup name="WildcardClass" count="all">
+	    <item group="SurvivalGear"/>
+		<item name="genericAmmoBox" count="3" />
+		<item name="casinoCoin" count="150"/>
+		<item group="legendarymelee" />
+		<item name="perkWildcard" />
+		</lootgroup>
 
 			<!-- Hunter Class -->	
 	<lootcontainer id="251" count="1" size="8,4" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="classTemplate">
@@ -3114,6 +3180,10 @@
 		    <!-- Medic Class -->
 	<lootcontainer id="223" count="1" size="8,4" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="classTemplate">
 	    <item group="MedicClass"/>
+		</lootcontainer>
+		    <!-- Wildcard Class -->
+	<lootcontainer id="224" count="1" size="8,4" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="classTemplate">
+	    <item group="WildcardClass"/>
 		</lootcontainer>
 
 </lootcontainers>
