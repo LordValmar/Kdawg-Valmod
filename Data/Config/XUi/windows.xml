@@ -18,13 +18,13 @@
 
 		<grid name="SMXHSFrame" pos="0,145" rows="2" cols="1" width="240" cell_width="240" cell_height="35" repeat_content="false" side="left">
 			<rect width="240" height="35" controller="HUDStatBar" stat_type="Stamina" visible="{statvisible}">
-				<texture name="SMXStaminaBarBG" depth="1" size="240,54" texture="@http://i.imgur.com/1yE0DM5.png" material="Materials/Transparent Colored" pos="0,-75" /> <!-- Local Asset Equivalent: staminabarempty.png -->
+				<texture name="SMXStaminaBarBG" depth="1" size="240,54" texture="@http://i67.tinypic.com/nq5ml5.jpg" material="Materials/Transparent Colored" pos="0,-75" /> <!-- Local Asset Equivalent: staminabarempty.png -->
 				<sprite name="BarContent" depth="2" height="15" width="220" atlas="itemiconatlas" sprite="smxuf1stamina" type="filled" fill="0" pos="8,-86" />
 				<label depth="6" name="TextContent" pos="0,-83" font_size="20" effect="outline" color="[white]" justify="center" pivot="topleft" text="{statcurrent}" />
 			</rect>
 
 			<rect width="240" height="35" controller="HUDStatBar" stat_type="Health" visible="{statvisible}">
-				<texture name="SMXHealthBarBG" depth="1" size="240,60" texture="@http://i.imgur.com/7IjrVvg.png" material="Materials/Transparent Colored" pos="0,-55" /> <!-- Local Asset Equivalent: healthbarempty.png -->
+				<texture name="SMXHealthBarBG" depth="1" size="240,60" texture="@http://i67.tinypic.com/rro0ut.jpg" material="Materials/Transparent Colored" pos="0,-55" /> <!-- Local Asset Equivalent: healthbarempty.png -->
 				<sprite name="BarContent" depth="2" size="220,30" atlas="itemiconatlas" sprite="smxuf1health" type="filled" fill="0" pos="8,-67" />
 				<label depth="6" name="TextContent" pos="0,-66" font_size="32" effect="outline" color="[white]" justify="center" pivot="topleft" text="{statcurrent}" />
 			</rect>
@@ -32,13 +32,13 @@
 
 		<grid name="SMXFWFrame" pos="-2,70" rows="1" cols="2" width="118" cell_width="118" cell_height="35" repeat_content="false" side="left">
 			<rect width="118" height="35" controller="HUDStatBar" stat_type="Food" visible="{statvisible}">
-				<texture name="SMXFoodBarBG" depth="1" size="120,27" texture="@http://i.imgur.com/bFzF5wF.png" material="Materials/Transparent Colored" pos="0,-55" /> <!-- Local Asset Equivalent: foodwaterempty.png -->
+				<texture name="SMXFoodBarBG" depth="1" size="120,27" texture="@http://i64.tinypic.com/iwm73o.jpg" material="Materials/Transparent Colored" pos="0,-55" /> <!-- Local Asset Equivalent: foodwaterempty.png -->
 				<sprite name="BarContent" depth="2" size="102,-10" color="0,128,0" type="filled" fill="0" pos="10,-75" />
 				<label depth="6" name="TextContent" pos="0,-58" font_size="22" effect="outline" color="[white]" justify="center" pivot="topleft" text="{playerfood} %" controller="PlayerStatsWindow" />
 			</rect>
 
 			<rect width="118" height="35" controller="HUDStatBar" stat_type="Water" visible="{statvisible}">
-				<texture name="SMXWaterBarBG" depth="1" size="120,27" texture="@http://i.imgur.com/bFzF5wF.png" material="Materials/Transparent Colored" pos="0,-55" /> <!-- Local Asset Equivalent: foodwaterempty.png -->
+				<texture name="SMXWaterBarBG" depth="1" size="120,27" texture="@http://i64.tinypic.com/iwm73o.jpg" material="Materials/Transparent Colored" pos="0,-55" /> <!-- Local Asset Equivalent: foodwaterempty.png -->
 				<sprite name="BarContent" depth="2" size="102,-10" color="0,153,255" type="filled" fill="0" pos="10,-75" />
 				<label depth="6" name="TextContent" pos="0,-58" font_size="22" effect="outline" color="[white]" justify="center" pivot="topleft" text="{playerwater} %" controller="PlayerStatsWindow" />
 			</rect>
@@ -55,15 +55,6 @@
 			<label depth="4" width="50" pos="48,-7" font_size="32" text="{playerlevel}[-]" color="[green]" effect="outline" upper_case="true" justify="center"/>
 		</rect>
 
-	</window>
-	
-	<window name="ZombieKillTracker" width="400" height="200" pos="135,92" controller="PlayerStatsWindow" anchor="LeftBottom">
-	<sprite depth="3" name="icon" size="45,45" style="icon32px" pos="112, -17" sprite="ui_game_symbol_knife" color="0, 0, 0, 125"/>
-	<sprite depth="3" name="icon" size="45,45" style="icon32px" pos="110, -15" sprite="ui_game_symbol_skull" color="[black]"/>
-	<sprite depth="3" name="icon" size="40,40" style="icon32px" pos="112, -17" sprite="ui_game_symbol_skull" color="237,231,206"/>
-
-	<label depth="4" name="TextContent" pos="154,-22" font_size="35" color="[black]" foregroundlayer="true" text="{playerzombiekills}[-]" effect="outline" upper_case="true"  />
-	<label depth="4" name="TextContent" pos="155,-23" font_size="30" color="[white]" foregroundlayer="true" text="{playerzombiekills}[-]" effect="outline" upper_case="true"  />
 	</window>
 
 	<window name="SMXToolbelt1" width="760" height="226" depth="0" pos="0,85" anchor="CenterBottom" backgroundcolor="[black]" controller="ToolbeltWindow" visible="{toolbeltvisible}">
@@ -90,7 +81,7 @@
 
 	<window name="SMXHudOther">
 
-				<texture name="SMXHudOther" depth="0" size="165,355" pos="-230,-50" texture="@http://i.imgur.com/HzB8tJ3.png" material="Materials/Transparent" justify="right" rotation="90"/> <!-- Local Asset Equivalent: hudotherbg.png -->
+				<texture name="SMXHudOther" depth="0" size="165,355" pos="-230,-50" texture="@http://i66.tinypic.com/xft537.jpg" material="Materials/Transparent" justify="right" rotation="90"/> <!-- Local Asset Equivalent: hudotherbg.png -->
 
 		<rect name="SMXCollector" pos="-90,31" side="right" controller="CollectedItemList" pivot="BottomLeft">
 			<panel width="168" height="43" name="item" visible="false" pivot="right" disableautobackground="true" pos="70, 0">
@@ -133,7 +124,7 @@
 
 	<window name="SMXQuestTracker" pos="-255, -88" width="300" height="100" anchor="RightTop" controller="QuestTrackerWindow" visible="{showquest}" depth="-20">
 
-		<texture name="SMXHudOther" depth="0" size="316,58" pos="-140,18" texture="@http://i.imgur.com/DmqKEqC.png" material="Materials/Transparent" /> <!-- Local Asset Equivalent: questsbg.png -->
+		<texture name="SMXHudOther" depth="0" size="316,58" pos="-140,18" texture="@http://i67.tinypic.com/28we34m.jpg" material="Materials/Transparent" /> <!-- Local Asset Equivalent: questsbg.png -->
 
 		<label depth="1" text="{questtitle}" font_size="26" effect="outline" justify="center" upper_case="true" pos="-100, -5" height="28" />
 		<sprite pos="-100,-8" depth="1" name="windowIcon" style="icon22px" sprite="{questicon}" justify="left" />
@@ -800,17 +791,14 @@
 			<sprite depth="4" name="costIcon" sprite="ui_game_symbol_coin" size="24,24" pos="577,-10" color="[gold]" foregroundlayer="true" />
 		</panel>
 		
-		<panel name="content" width="100%" height="303" depth="0" pos="0,-46" disableautobackground="true">
-				<!-- <sprite name="background" color="[black]" type="sliced" globalopacity="true"/> -->
-				<sprite depth="8" name="backgroundMain" sprite="menu_empty3px" pos="0,0" width="603" height="303" color="[black]" type="sliced" fillcenter="false" on_press="true" />	
-				<grid depth="1" name="inventory" rows="4" cols="8" pos="3,-3" cell_width="75" cell_height="75" controller="Backpack" repeat_content="true" >
-					<item_stack name="0"/>
+		<panel name="content" width="100%" height="335" depth="0" pos="0,-46" disableautobackground="true">
+				<sprite depth="8" name="backgroundMain" sprite="menu_empty3px" pos="0,0" width="603" height="335" color="[black]" type="sliced" fillcenter="false" on_press="true" />	
+				<grid depth="1" name="inventory" rows="5" cols="9" pos="3,-3" cell_width="67" cell_height="67" controller="Backpack" repeat_content="true" >
+					<item_stack_inventory name="0"/>
 				</grid>
-			<!-- VALMOD remove if offline-->
 			<sprite depth="1" name="background" pos="0,0" color="[black]" type="sliced">
-				<texture depth="500" name="InventoryBackground" width="597" height="297" pos="3,-3" texture="@http://i.imgur.com/kpry8zm.png" material="Materials/Transparent Colored"/>
+				<texture depth="500" name="InventoryBackground" width="603" height="335" pos="3,-3" texture="@file:Mods\SMX\Textures\Misc\inventorybg.png" material="Materials/Transparent Colored"/>
 			</sprite>
-			<!-- Valmod Remove if Offline-->
 		</panel>
 	</window>
 	
@@ -1492,19 +1480,19 @@
             text="Death Plague Rules"/>
  
             <label pos="5,-40" depth="3" width="100%" height="21" justify="center" font_size="20"
-            text="Rule #1" tooltip="No building in ANY Cities!" on_hover="true"/>
+            text="Hover For Rule #1" tooltip="No building in ANY Cities!" on_hover="true"/>
  
             <label pos="5,-65" depth="3" width="100%" height="21" justify="center" font_size="20"
-            text="Rule #2" tooltip="DO NOT destroy lootable buildings!" on_hover="true"/>
+            text="Hover For Rule #2" tooltip="DO NOT destroy lootable buildings!" on_hover="true"/>
  
             <label pos="5,-90" depth="3" width="100%" height="21" justify="center" font_size="20"
-            text="Rule #3" tooltip="No Griefing!" on_hover="true"/>
+            text="Hover For Rule #3" tooltip="No Griefing!" on_hover="true"/>
  
             <label pos="5,-115" depth="3" width="100%" height="21" justify="center" font_size="20"
-            text="Rule #4" tooltip="DONT Destroy anything in Lobby" on_hover="true"/>
+            text="Hover For Rule #4" tooltip="DONT Destroy anything in Lobby" on_hover="true"/>
  
             <label pos="5,-140" depth="3" width="100%" height="21" justify="center" font_size="20"
-            text="Rule #5" tooltip="No Harrassing/Disrespecting Players" on_hover="true"/>
+            text="Hover For Rule #5" tooltip="No Harrassing/Disrespecting Players" on_hover="true"/>
  
             </rect>
         <!-- Server Rules Panel End -->
@@ -1521,19 +1509,19 @@
             text="/setbase2" />
  
             <label pos="5,-65" depth="3" width="100%" height="600" justify="left" font_size="20"
-            text="/protect" />
+            text="/base" />
             <label pos="-5,-65" depth="3" width="100%" height="600" justify="right" font_size="20" color="0, 255, 0"
-            text="/protect2" />
+            text="/base2" />
  
             <label pos="5,-90" depth="3" width="100%" height="600" justify="left" font_size="20"
-            text="/set wp2" />
-            <label pos="-5,-90" depth="3" width="100%" height="600" justify="right" font_size="20"
-            text="/return" />
+            text="protect" />
+            <label pos="-5,-90" depth="3" width="100%" height="600" justify="right" font_size="20" color="0, 255, 0"
+            text="/protect2" />
  
             <label pos="5,-115" depth="3" width="100%" height="600" justify="left" font_size="20"
             text="/lobby" />
             <label pos="-5,-115" depth="3" width="100%" height="600" justify="right" font_size="20"
-            text="/locations" />
+            text="/revive" />
  
             <label pos="5,-140" depth="3" width="100%" height="600" justify="left" font_size="20"
             text="/stuck" />
@@ -1541,14 +1529,14 @@
             text="/valmod" />
  
             <label pos="5,-165" depth="3" width="100%" height="600" justify="left" font_size="20"
-            text="/map" />
+            text="/wp [wpname]" />
             <label pos="-5,-165" depth="3" width="100%" height="600" justify="right" font_size="20"
-            text="/set wp" />
+            text="/wallet" />
  
             <label pos="5,-190" depth="3" width="100%" height="600" justify="left" font_size="20"
-            text="/test base" />
+            text="/set wp [wpname]" />
             <label pos="-5,-190" depth="3" width="100%" height="600" justify="right" font_size="20"
-            text="/revive" />
+            text="" />
  
             <label pos="5,-215" depth="3" width="100%" height="600" justify="left" font_size="20"
             text="/resume, /pause" />
@@ -1572,19 +1560,19 @@
             text="KDAWG-OWNER" />
  
             <label pos="-5,-340" depth="3" width="100%" height="100%" justify="center" font_size="20"
-            text="MurderousMurphy-Admin" />
+            text="Nodac-LAdmin" />
  
             <label pos="-5,-365" depth="3" width="100%" height="100%" justify="center" font_size="20"
-            text="Nodac-Admin" />
+            text="Alwayscharmed-Admin" />
  
             <label pos="-5,-390" depth="3" width="100%" height="100%" justify="center" font_size="20"
-            text="BlueGuy-Mod" />
+            text="Swiftbugg-Admin" />
  
             <label pos="-5,-415" depth="3" width="100%" height="100%" justify="center" font_size="20"
-            text="Alwayscharmed-Mod" />
+            text="Lilthie-Admin" />
  
             <label pos="-5,-440" depth="3" width="100%" height="100%" justify="center" font_size="20"
-            text="Swiftbugg-Mod" />
+            text="W!tt3-Admin" />
  
             <label pos="0,-470" depth="3" width="100%" height="100%" justify="center" font_size="25" color="0, 255, 0"
             text="Server Information" />
@@ -1818,7 +1806,7 @@
 	
 	<window name="windowVehicleStorage" width="529" height="262" depth="5" anchor="CenterTop" panel="Right" backgroundcolor="[black]">
 		<panel name="header" height="43" depth="1" backgroundspritename="ui_game_panel_header">
-			<sprite depth="1" name="windowIcon" style="icon32px" pos="4,-5" sprite="ui_game_symbol_loot_sack"/>
+			<button depth="3" name="btnSort" style="icon32px, press, hover" pivot="center" pos="21,-21" sprite="ui_game_symbol_loot_sack" tooltip_key="lblSortContainer" sound="[paging_click]" />
 			<label style="header.name" text="MINIBIKE STORAGE" text_key="xuiMinibikeStorage" />
 		</panel>
 		<grid depth="2" name="inventory" rows="7" cols="10" pos="3,-49" cell_width="75" cell_height="75" repeat_content="true" controller="VehicleContainer">
