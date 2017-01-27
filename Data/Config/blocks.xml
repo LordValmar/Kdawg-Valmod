@@ -55,6 +55,8 @@ Forge weight: We have auto-scaling based on resources IF there is a recipe for t
 	<drop event="Harvest" name="coal" count="2" prob=".01"/>
 	<drop event="Harvest" name="whetstone" count="2" prob=".2" />
 	<drop event="Harvest" name="rockSmall" count="4,5" tool_category="Miner" />
+	<drop event="Harvest" name="potassiumNitratePowder" count="2" prob=".2" tool_category="Miner" />
+	<drop event="Harvest" name="coal" count="2" prob=".2" tool_category="Miner" />
 </block>
 
 <block id="2" name="grass">
@@ -3548,6 +3550,7 @@ group desc for stuff like metal siding
     <property name="Group" value="Tools/Traps"/>
     <property name="EconomicValue" value="10"/>
     <property name="EconomicBundleSize" value="50"/>
+	<property name="CraftingSkillGroup" value="Traps"/>
   </block>
   <block id="409" name="trapSpikesDamage1">
     <property name="Extends" value="trapSpikesNew"/>
@@ -14692,6 +14695,7 @@ kind of free
 		<property name="CustomIcon" value="cntMunitionsBox" />
 		<property name="LootList" value="101" />
 		<property name="CraftingSkillGroup" value="Mechanical"/>
+		<property class="RepairItems"> <property name="forgedIron" value="5" /> </property>
 	</block>
 	<block id="1957" name="cntEPSLockers">
 		<property name="Extends" value="cntLockers" />
@@ -14831,6 +14835,7 @@ kind of free
 			<property name="CraftingAreaRecipes" value="campfire" />
 		</property>
 		<property name="CraftingSkillGroup" value="Mechanical"/>
+		<property class="RepairItems"> <property name="forgedSteel" value="5" />	</property>
 	</block>
 	<block id="1971" name="workingGranitSink">
 	<property name="DescriptionKey" value="WorkingSinkDesc"/>
